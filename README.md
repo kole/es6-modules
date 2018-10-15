@@ -28,3 +28,9 @@ Chrome 60, Safari 10, Internet Explorer (all), Firefox 59, etc. did not support 
 - Firefox 60+
 - Safari 11+
 - Safari (iOS) 11.2+
+
+# Cons
+
+The biggest con I have found so far is utilizing 3rd party npm modules. As best as I can tell, the only way to do this successfully is to copy the module you want to use into a local directory so it runs through your minification process and gets put into the dist folder.
+
+Simply installing a npm module and then importing it into the file you want to use won't work.
