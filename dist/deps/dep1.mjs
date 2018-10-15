@@ -1,0 +1,1 @@
+export default function(){return new Promise(a=>{console.log("Dep 1"),a()})}
