@@ -1,7 +1,7 @@
-import dep1 from './deps/dep1.mjs';
-import dep2 from './deps/dep2.mjs';
+import dep1 from './deps/dep1.js';
+import dep2 from './deps/dep2.js';
 
 (async () => {
-    await dep2();
     await dep1();
+    await dep2();
 })();

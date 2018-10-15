@@ -1,1 +1,0 @@
-export default function(){return new Promise(a=>{setTimeout(()=>{console.log("Dep 2"),a()},1500)})}

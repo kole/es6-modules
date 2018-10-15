@@ -5,18 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run minify && npm run server",
+    "start": "concurrently \"npm run minify\" \"npm run server\"",
     "server": "node --experimental-modules build/serve.mjs",
-    "minify": "minify --sourceType module src/js -d dist"
+    "minify": "babel -w src/js -d dist/js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^4.0.1",
     "connect": "^3.6.6",
     "serve-static": "^1.13.2"
   },
   "devDependencies": {
-    "babel-minify": "^0.5.0"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "babel-preset-minify": "^0.5.0"
   }
 }
