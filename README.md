@@ -20,11 +20,11 @@ Chrome 60, Safari 10, Internet Explorer (all), Firefox 59, etc. did not support 
 
 [Full List](https://caniuse.com/#feat=es6-module)
 
-_Quick Overview_
+**Quick Overview**
 
 - Android 67+
 - Chrome 61+
 - Edge 16+
-- iOS 11.2+
 - Firefox 60+
 - Safari 11+
+- Safari (iOS) 11.2+
