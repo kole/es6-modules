@@ -1,6 +1,10 @@
 # es6-modules
 
-A working proof of concept for using native ES6 modules in the browser
+A working proof of concept for using native ES6 modules in the browser.
+
+Insipred by [this contentful article](https://www.contentful.com/blog/2017/04/04/es6-modules-support-lands-in-browsers-is-it-time-to-rethink-bundling/)
+
+Additional reading [here](https://medium.freecodecamp.org/you-might-not-need-to-transpile-your-javascript-4d5e0a438ca)
 
 # Installation
 
